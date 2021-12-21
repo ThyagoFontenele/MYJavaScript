@@ -1,0 +1,14 @@
+1)Faça com que a função StringChallenge (str) pegue o parâmetro str que está sendo passado e determine se ele passa como uma senha válida que segue a lista de restrições:
+
+1. Deve ter uma letra maiúscula.
+2. Deve conter pelo menos um número.
+3. Deve conter um sinal de pontuação ou símbolo matemático.
+4. Não pode conter a palavra "senha" na string.
+5. Deve ter mais de 7 caracteres e menos de 31 caracteres.
+
+Se todas as restrições acima forem atendidas na string, o seu programa deve retornar a string true, caso contrário, seu programa deve retornar a string false. Por exemplo: se str for "apple!M7", seu programa deve retornar "true".
+
+2)Faça com que a função MathChallenge (num) pegue a entrada, que será um inteiro variando de 1 a 250, e retorne uma saída inteira que especificará o menor número de moedas que, quando adicionado, será igual ao inteiro de entrada. As moedas são baseadas em um sistema como segue: existem moedas representando os inteiros 1, 5, 7, 9 e 11. Então, por exemplo: se num for 16, então a saída deve ser 2 porque você pode atingir o número 16 com o moedas 9 e 7. Se num for 25, a saída deve ser 3 porque você pode chegar a 25 com 11+9+5 ou com 9+9+7
+
+Entrada: 6
+Produto: 2 
